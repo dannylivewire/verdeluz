@@ -10,5 +10,6 @@
         $headers .= "Reply-To: $visitor_email \r\n";
         $to = "danny.livewire@gmail.com, tonyfcohen@gmail.com, chicagomultipass@gmail.com";
         mail($to, $subject, $email_body, $headers);
+        echo "Mail Sent. Thank you " . $name . ", we will contact you shortly.";
     }   
 ?>

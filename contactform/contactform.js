@@ -95,7 +95,8 @@ jQuery(document).ready(function($) {
       url: "contactform/sendmail.php",
       data: str,
       success: function(msg) {
-        // alert(msg);
+        alert(msg);
+        /*
         if (msg == 'OK') {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
@@ -105,7 +106,7 @@ jQuery(document).ready(function($) {
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
         }
-
+        */
       }
     });
     return false;

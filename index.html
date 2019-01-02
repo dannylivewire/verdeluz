@@ -114,7 +114,7 @@
 
     <!--==========================
     Call To Action Section - 1
-    ============================-->
+    ============================
     <section id="call-to-action-1">
       <div class="container wow fadeIn">
         <div class="row">
@@ -128,7 +128,7 @@
         </div>
 
       </div>
-    </section><!-- #call-to-action -->
+    </section> -->
 
     <!--==========================
       Facts Section
@@ -301,9 +301,9 @@
             </div>
 
             <div class="social-links">
-              <a href="https://www.facebook.com/groups/160145257964240/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="https://www.instagram.com/verdeluzeco" class="instagram" target="_blank"><i class="fa fa-instagram"></i></a>
               <!--
+              <a href="https://www.facebook.com/groups/160145257964240/" target="_blank" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
@@ -316,13 +316,17 @@
             <div class="form">
               <div id="sendmessage">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
-              <form action="" method="post" role="form" class="contactForm">
+              <form name="myemailform" action="contact.php" method="post" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
                   <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" name="phone" id="phone" placeholder="Phone" data-rule="minlen:4" data-msg="Please enter a phone number" />
                   <div class="validation"></div>
                 </div>
                 <div class="form-group">
@@ -371,8 +375,9 @@
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
 
-  <!-- Contact Form JavaScript File -->
+  <!-- Contact Form JavaScript File 
   <script src="contactform/contactform.js"></script>
+  -->
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
