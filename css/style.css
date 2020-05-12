@@ -1,12 +1,8 @@
 /*
   Theme Name: Regna
   Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
 */
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
+
 body {
   background: #000;
   color: #666666;
@@ -672,8 +668,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 /* Call To Action Section
 --------------------------------*/
-#call-to-action-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Eris2019NYE.png) fixed center center;
+#earth {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/puerto_rico_earthquake.jpg) fixed center center;
   padding: 80px 0;
 }
 
